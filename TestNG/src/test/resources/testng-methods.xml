@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite1" verbose="1">
+    <test name="Homework 3">
+        <classes>
+            <class name="homeworks.homework_3.CreateFileTest">
+                <methods>
+                    <include name="createFileWithData"></include>
+                </methods>
+            </class>
+            <class name="homeworks.homework_3_dataprovider.CreateFileTest">
+                <methods>
+                    <exclude name="createFileWithData"></exclude>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

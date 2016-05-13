@@ -1,0 +1,25 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+
+group = 'MavenProject'
+version = '1.0-SNAPSHOT'
+
+description = """TestNG"""
+
+sourceCompatibility = 1.6
+targetCompatibility = 1.6
+
+
+
+repositories {
+        
+     maven { url "http://repo.maven.apache.org/maven2" }
+}
+dependencies {
+    compile group: 'org.testng', name: 'testng', version:'6.9.10'
+    compile group: 'ru.stqa.selenium', name: 'webdriver-factory', version:'1.1.41'
+}
+
+test {
+	useTestNG()
+}

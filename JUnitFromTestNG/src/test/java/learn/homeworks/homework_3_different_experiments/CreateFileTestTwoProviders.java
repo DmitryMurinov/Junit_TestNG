@@ -16,6 +16,7 @@ import java.util.Random;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
+import static org.junit.Assert.assertTrue;
 
 /**
  * Created by Dima on 03.05.2016.
@@ -53,7 +54,8 @@ public class CreateFileTestTwoProviders extends TestBase {
     public void createFileWithData(FileData filedata) throws IOException {
 
         FileOutputStream fos = null;
-        File file;
+        File file = null;
+        boolean fileCreated = false;
         String content = filedata.getData();
 
         System.out.println(content);
@@ -65,7 +67,7 @@ public class CreateFileTestTwoProviders extends TestBase {
 
             // if file doesnt exists, then create it
             if (!file.exists()) {
-                file.createNewFile();
+                fileCreated = file.createNewFile();
             }
 
             // get the content in bytes
@@ -88,12 +90,18 @@ public class CreateFileTestTwoProviders extends TestBase {
                 e.printStackTrace();
             }
         }
+
+        assertThat("File not created", fileCreated, is (true));
+        long fileSize = 0;
+        if(file != null){fileSize = file.length();}
+        assertTrue(fileSize > 0);
     }
 
     @Test
     public void createFileWrongPath() {
 
         File file;
+        IOException exception = null;
 
         try {
 
@@ -107,7 +115,15 @@ public class CreateFileTestTwoProviders extends TestBase {
             System.out.println("test 3 copy");
 
             assertThat("There are no message about wrong path or message in a wrong language",
-                    e.getMessage(), is("Синтаксическая ошибка в имени файла, имени папки или метке тома"));
+                    e.getMessage(), is ("Синтаксическая ошибка в имени файла, имени папки или метке тома"));
+
+            exception = e;
+        } finally {
+            if(!exception.getMessage().equals("Синтаксическая ошибка в имени файла, имени папки или метке тома")){
+                System.out.println("There are no message from system or wrong message");
+                System.out.println("Message from System: " + exception.getMessage());
+                System.exit(1);
+            }
         }
     }
 

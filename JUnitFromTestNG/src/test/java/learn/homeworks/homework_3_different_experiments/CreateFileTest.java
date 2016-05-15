@@ -33,6 +33,8 @@ public class CreateFileTest extends TestBase {
         this.fileName = fileName;
     }
 
+    //В этом тесте мы проверяем, что можно создать файл
+
     @Test
     public void createEmptyFile() throws IOException {
 

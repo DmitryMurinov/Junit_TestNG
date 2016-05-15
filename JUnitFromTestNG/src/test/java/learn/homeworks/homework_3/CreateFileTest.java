@@ -18,6 +18,8 @@ import static org.junit.Assert.assertTrue;
 
 public class CreateFileTest extends TestBase {
 
+    //В этом тесте мы проверяем, что можно создать файл
+
     @Test
     @Category({PositiveTests.class, SmokeTests.class})
     public void createEmptyFile() throws IOException {
@@ -41,6 +43,9 @@ public class CreateFileTest extends TestBase {
 
     }
 
+    //В этом тесте мы проверяем, что можно создать файл и записать в него данные (размер файла с записанными данными
+    //больше 0
+
     @Test
     @Category(PositiveTests.class)
     public void createFileWithData() throws IOException {
@@ -53,12 +58,13 @@ public class CreateFileTest extends TestBase {
         try {
 
             file = new File(tempDir.getRoot() + "/test2.txt");
-            fos = new FileOutputStream(file);
 
             // if file doesnt exists, then create it
             if (!file.exists()) {
                 fileCreated = file.createNewFile();
             }
+
+            fos = new FileOutputStream(file);
 
             // get the content in bytes
             byte[] contentInBytes = content.getBytes();
@@ -86,6 +92,9 @@ public class CreateFileTest extends TestBase {
         if(file != null){fileSize = file.length();}
         assertTrue(fileSize > 0);
     }
+
+    //В следующем тесте проверяем, что система не даст создать файл при не корректном пути и выбросит исключение.
+    //Если система не выбрасывает правильно исключение, то тест падает
 
     @Test
     @Category(NegativeTest.class)

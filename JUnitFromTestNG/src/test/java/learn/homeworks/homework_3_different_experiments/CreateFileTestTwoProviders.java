@@ -25,6 +25,8 @@ import static org.junit.Assert.assertTrue;
 @RunWith(DataProviderRunner.class)
 public class CreateFileTestTwoProviders extends TestBase {
 
+    //В этом тесте мы проверяем, что можно создать файл
+
     @Test
     @UseDataProvider("fileNames")
     public void createEmptyFile(String fileName, String nothing) throws IOException {
@@ -36,6 +38,9 @@ public class CreateFileTestTwoProviders extends TestBase {
         try {
 
             file = new File(tempDir.getRoot() + fileName);
+
+            System.out.println(file.exists());
+
             if (!file.exists()) {
                 fileCreated = file.createNewFile();
             }
@@ -48,6 +53,9 @@ public class CreateFileTestTwoProviders extends TestBase {
 
         assertThat("File not created", fileCreated, is(true));
     }
+
+    //В этом тесте мы проверяем, что можно создать файл и записать в него данные (размер файла с записанными данными
+    //больше 0
 
     @Test
     @UseDataProvider("filedataJSON")//    , dependsOnMethods = "createEmptyFile")
@@ -63,12 +71,13 @@ public class CreateFileTestTwoProviders extends TestBase {
         try {
 
             file = new File(tempDir.getRoot() + "/test2.txt");
-            fos = new FileOutputStream(file);
 
             // if file doesnt exists, then create it
             if (!file.exists()) {
                 fileCreated = file.createNewFile();
             }
+
+            fos = new FileOutputStream(file);
 
             // get the content in bytes
             byte[] contentInBytes = content.getBytes();
@@ -96,6 +105,9 @@ public class CreateFileTestTwoProviders extends TestBase {
         if(file != null){fileSize = file.length();}
         assertTrue(fileSize > 0);
     }
+
+    //В следующем тесте проверяем, что система не даст создать файл при не корректном пути и выбросит исключение.
+    //Если система не выбрасывает правильно исключение, то тест падает
 
     @Test
     public void createFileWrongPath() {

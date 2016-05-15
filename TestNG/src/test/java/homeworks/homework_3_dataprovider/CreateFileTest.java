@@ -65,12 +65,13 @@ public class CreateFileTest extends TestBase {
         try {
 
             file = new File(pathToFile.toString() + "/test2.txt");
-            fos = new FileOutputStream(file);
 
             // if file doesnt exists, then create it
             if (!file.exists()) {
                 fileCreated = file.createNewFile();
             }
+
+            fos = new FileOutputStream(file);
 
             // get the content in bytes
             byte[] contentInBytes = content.getBytes();

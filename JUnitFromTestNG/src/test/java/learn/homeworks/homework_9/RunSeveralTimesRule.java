@@ -9,7 +9,8 @@ public class RunSeveralTimesRule implements TestRule {
     int counter = 10;
 
     public RunSeveralTimesRule(int counter) {
-        this.counter = counter;
+        if(counter > 0)
+        {this.counter = counter;}
     }
 
     @Override

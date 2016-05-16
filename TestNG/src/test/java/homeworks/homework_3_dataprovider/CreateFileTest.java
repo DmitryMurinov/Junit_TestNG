@@ -32,20 +32,13 @@ public class CreateFileTest extends TestBase {
         File file;
         boolean fileCreated = false;
 
-        try {
+        file = new File(pathToFile.toString() + fileName);
 
-            file = new File(pathToFile.toString() + fileName);
-            if (!file.exists()) {
-                fileCreated = file.createNewFile();
-            }
-
-            System.out.println("test 1 copy done, with filename: " + fileName);
-
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        fileCreated = file.createNewFile();
 
         assertThat("File not created", fileCreated, is (true));
+
+        System.out.println("test 1 copy done, with filename: " + fileName);
     }
 
     //В этом тесте мы проверяем, что можно создать файл и записать в него данные (размер файла с записанными данными
@@ -60,44 +53,27 @@ public class CreateFileTest extends TestBase {
 
         boolean fileCreated = false;
 
-        System.out.println(content);
+        file = new File(pathToFile.toString() + "/test2.txt");
 
-        try {
 
-            file = new File(pathToFile.toString() + "/test2.txt");
+        fileCreated = file.createNewFile();
 
-            // if file doesnt exists, then create it
-            if (!file.exists()) {
-                fileCreated = file.createNewFile();
-            }
 
-            fos = new FileOutputStream(file);
+        fos = new FileOutputStream(file);
 
-            // get the content in bytes
-            byte[] contentInBytes = content.getBytes();
+        // get the content in bytes
+        byte[] contentInBytes = content.getBytes();
 
-            fos.write(contentInBytes);
-            fos.flush();
-            fos.close();
-
-            System.out.println("test 2 copy done");
-
-        } catch (IOException e) {
-            e.printStackTrace();
-        } finally {
-            try {
-                if (fos != null) {
-                    fos.close();
-                }
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        }
+        fos.write(contentInBytes);
+        fos.flush();
+        fos.close();
 
         assertThat("File not created", fileCreated, is (true));
         long fileSize = 0;
         if(file != null){fileSize = file.length();}
         assertTrue(fileSize > 0);
+
+        System.out.println("test 2 copy done");
     }
 
     //В следующем тесте проверяем, что система не даст создать файл при не корректном пути и выбросит исключение.
@@ -112,9 +88,9 @@ public class CreateFileTest extends TestBase {
         try {
 
             file = new File(pathToFile.toString() + "/!@#$%^&*()///test3.txt");
-            if (!file.exists()) {
-                file.createNewFile();
-            }
+
+            file.createNewFile();
+
 
         } catch (IOException e) {
             System.out.println(e.getMessage());

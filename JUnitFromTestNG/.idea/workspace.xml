@@ -36,20 +36,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RunSeveralTimesRule.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RunSeveralTimesRule.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/learn/homeworks/homework_9/RunSeveralTimesRule.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-              <folding>
-                <element signature="e#273#274#0" expanded="true" />
-                <element signature="e#311#312#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="150">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UnstableTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UnstableTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/learn/homeworks/homework_9/UnstableTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -62,8 +59,8 @@
       <file leaf-file-name="UnstableFixture.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/learn/homeworks/homework_9/UnstableFixture.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="91" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="91" />
+            <state relative-caret-position="289">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,8 +81,8 @@
       <file leaf-file-name="UnstableRule.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/learn/homeworks/homework_9/UnstableRule.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="27" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="27" />
+            <state relative-caret-position="170">
+              <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#568#569#0" expanded="true" />
@@ -581,7 +578,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TestNG/pom.xml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -990,12 +987,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UnstableTest - 2016.05.16 at 13h 56m 53s.xml">
-      <configuration name="UnstableTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UnstableTest - 2016.05.16 at 13h 58m 00s.xml">
-      <configuration name="UnstableTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UnstableTest - 2016.05.16 at 13h 58m 11s.xml">
       <configuration name="UnstableTest" configurationId="JUnit" />
     </history-entry>
@@ -1011,6 +1002,9 @@
     <history-entry file="UnstableTest - 2016.05.16 at 14h 35m 20s.xml">
       <configuration name="UnstableTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UnstableTest - 2016.05.16 at 14h 38m 35s.xml">
+      <configuration name="UnstableTest" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="UnstableTest_randomlyFailingTest - 2016.05.16 at 14h 27m 58s.xml">
       <configuration name="UnstableTest.randomlyFailingTest" configurationId="JUnit" />
     </history-entry>
@@ -1018,6 +1012,9 @@
       <configuration name="UnstableTest.randomlyFailingTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="UnstableTest_randomlyFailingTest - 2016.05.16 at 14h 36m 12s.xml">
+      <configuration name="UnstableTest.randomlyFailingTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UnstableTest_randomlyFailingTest - 2016.05.16 at 14h 40m 14s.xml">
       <configuration name="UnstableTest.randomlyFailingTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -1038,7 +1035,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1098,10 +1095,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#273#274#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1203,6 +1197,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_74/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3226">
+          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/learn/homeworks/homework_9/Unstable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1213,10 +1215,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_74/src.zip!/java/lang/Integer.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/learn/homeworks/homework_9/UnstableFixture.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3226">
-          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+        <state relative-caret-position="289">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/learn/homeworks/homework_9/UnstableRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/learn/homeworks/homework_9/RunSeveralTimesRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1226,39 +1250,6 @@
         <state relative-caret-position="255">
           <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/learn/homeworks/homework_9/UnstableRule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-            <element signature="e#598#599#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/learn/homeworks/homework_9/UnstableFixture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="91" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="91" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/learn/homeworks/homework_9/RunSeveralTimesRule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <element signature="e#273#274#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

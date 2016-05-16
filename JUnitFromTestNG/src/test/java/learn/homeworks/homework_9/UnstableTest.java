@@ -1,25 +1,31 @@
 package learn.homeworks.homework_9;
 
-import learn.homeworks.homework_9.Barantsev.RunTwiceRule;
 import org.junit.Assert;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.TestRule;
 
-public class UnstableTest {
-
-    @Rule
-    public TestRule runTwiceRule = new RunTwiceRule();
+public class UnstableTest extends UnstableFixture {
 
     private static int attempt = 1;
 
     @Test
+    @Unstable(100)
     public void randomlyFailingTest() {
-        if (attempt == 2) {
-            attempt = 10;
+        try {
+            Thread.sleep(3);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 
+        String time = String.valueOf(System.currentTimeMillis());
+        time = time.substring(time.length() - 1, time.length());
+
+        if (time.equals("5")) {
+            System.out.println("Test passed with time: " + time);
         } else {
-            Assert.fail("Failed on " + (attempt++) + " attempt");
+            System.out.println("Failed on " + (attempt++) + " attempt with time end on: " + time);
+            Assert.fail();
         }
     }
 }

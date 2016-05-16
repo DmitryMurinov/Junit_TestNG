@@ -14,5 +14,5 @@ import java.lang.annotation.Target;
 
 public @interface Unstable {
 
-    public int value() default 1;
+    int value() default 1;
 }

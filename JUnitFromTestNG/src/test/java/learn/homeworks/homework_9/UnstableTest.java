@@ -1,9 +1,7 @@
 package learn.homeworks.homework_9;
 
 import org.junit.Assert;
-import org.junit.Rule;
 import org.junit.Test;
-import org.junit.rules.TestRule;
 
 public class UnstableTest extends UnstableFixture {
 

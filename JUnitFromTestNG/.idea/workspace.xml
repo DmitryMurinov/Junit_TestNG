@@ -25,8 +25,8 @@
       <file leaf-file-name="CreateFileTestTwoProviders.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/learn/homeworks/homework_3_different_experiments/CreateFileTestTwoProviders.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="146" column="7" selection-start-line="146" selection-start-column="7" selection-end-line="146" selection-end-column="7" />
+            <state relative-caret-position="524">
+              <caret line="160" column="124" selection-start-line="160" selection-start-column="92" selection-end-line="160" selection-end-column="124" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,12 +83,11 @@
       <file leaf-file-name="AllDataProvider.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/learn/homeworks/homework_10/AllDataProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="25" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+            <state relative-caret-position="476">
+              <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
               <folding>
-                <marker date="1463404409788" expanded="false" signature="1447:1457" placeholder="&lt;~&gt;" />
-                <marker date="1463404409788" expanded="false" signature="1726:1737" placeholder=" { " />
-                <marker date="1463404409788" expanded="false" signature="1767:1773" placeholder=" }" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1996#2006#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -114,24 +113,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CreateFileTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/learn/homeworks/homework_10/CreateFileTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CreateFileTestTwoProviders.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/learn/homeworks/homework_10/CreateFileTestTwoProviders.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="150" column="0" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
-              <folding>
-                <element signature="e#1585#1595#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="340">
+              <caret line="61" column="42" selection-start-line="61" selection-start-column="42" selection-end-line="61" selection-end-column="42" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -635,33 +622,7 @@
       <recent name="learn.homeworks.homework_9" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CreateFileTestTwoProviders.createFileWithData">
-    <configuration default="false" name="UnstableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="learn.homeworks.homework_9.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="JUnitFromTestNG" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="learn.homeworks.homework_9" />
-      <option name="MAIN_CLASS_NAME" value="learn.homeworks.homework_9.UnstableTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.CreateFileTestTwoProviders">
     <configuration default="false" name="CreateFileTestTwoProviders.createEmptyFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -754,6 +715,32 @@
       <option name="MAIN_CLASS_NAME" value="learn.homeworks.homework_10.CreateFileTestTwoProviders" />
       <option name="METHOD_NAME" value="createFileWithData" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="CreateFileTestTwoProviders" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="learn.homeworks.homework_10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="JUnitFromTestNG" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="learn.homeworks.homework_10" />
+      <option name="MAIN_CLASS_NAME" value="learn.homeworks.homework_10.CreateFileTestTwoProviders" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -1001,19 +988,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.UnstableTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.CreateFileTestTwoProviders.createEmptyFile" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CreateFileTestTwoProviders.createFileWrongPath" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.CreateFileTestTwoProviders.filedataJSON" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.CreateFileTestTwoProviders.createFileWithData" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.CreateFileTestTwoProviders.createEmptyFile" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.CreateFileTestTwoProviders.createFileWrongPath" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CreateFileTestTwoProviders.filedataJSON" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CreateFileTestTwoProviders.createFileWithData" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CreateFileTestTwoProviders" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CreateFileTestTwoProviders.createFileWithData" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CreateFileTestTwoProviders.createEmptyFile" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CreateFileTestTwoProviders.filedataJSON" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.CreateFileTestTwoProviders.createFileWrongPath" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.UnstableTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CreateFileTestTwoProviders" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CreateFileTestTwoProviders.createFileWithData" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CreateFileTestTwoProviders.createEmptyFile" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CreateFileTestTwoProviders.filedataJSON" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.CreateFileTestTwoProviders.createFileWrongPath" />
       </list>
     </recent_temporary>
   </component>
@@ -1031,14 +1018,8 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CreateFileTestTwoProviders_createEmptyFile - 2016.05.16 at 16h 18m 37s.xml">
-      <configuration name="CreateFileTestTwoProviders.createEmptyFile" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CreateFileTestTwoProviders_createEmptyFile - 2016.05.16 at 16h 19m 07s.xml">
-      <configuration name="CreateFileTestTwoProviders.createEmptyFile" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CreateFileTestTwoProviders_createEmptyFile - 2016.05.16 at 16h 20m 00s.xml">
-      <configuration name="CreateFileTestTwoProviders.createEmptyFile" configurationId="JUnit" />
+    <history-entry file="CreateFileTestTwoProviders - 2016.05.16 at 16h 59m 43s.xml">
+      <configuration name="CreateFileTestTwoProviders" configurationId="JUnit" />
     </history-entry>
     <history-entry file="CreateFileTestTwoProviders_createEmptyFile - 2016.05.16 at 16h 21m 20s.xml">
       <configuration name="CreateFileTestTwoProviders.createEmptyFile" configurationId="JUnit" />
@@ -1046,8 +1027,11 @@
     <history-entry file="CreateFileTestTwoProviders_createEmptyFile - 2016.05.16 at 16h 23m 02s.xml">
       <configuration name="CreateFileTestTwoProviders.createEmptyFile" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CreateFileTestTwoProviders_createFileWithData - 2016.05.16 at 16h 18m 03s.xml">
-      <configuration name="CreateFileTestTwoProviders.createFileWithData" configurationId="JUnit" />
+    <history-entry file="CreateFileTestTwoProviders_createEmptyFile - 2016.05.16 at 16h 57m 06s.xml">
+      <configuration name="CreateFileTestTwoProviders.createEmptyFile" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CreateFileTestTwoProviders_createEmptyFile - 2016.05.16 at 16h 57m 20s.xml">
+      <configuration name="CreateFileTestTwoProviders.createEmptyFile" configurationId="JUnit" />
     </history-entry>
     <history-entry file="CreateFileTestTwoProviders_createFileWithData - 2016.05.16 at 16h 24m 19s.xml">
       <configuration name="CreateFileTestTwoProviders.createFileWithData" configurationId="JUnit" />
@@ -1058,8 +1042,11 @@
     <history-entry file="CreateFileTestTwoProviders_createFileWithData - 2016.05.16 at 16h 33m 18s.xml">
       <configuration name="CreateFileTestTwoProviders.createFileWithData" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CreateFileTestTwoProviders_filedataJSON - 2016.05.16 at 16h 17m 51s.xml">
-      <configuration name="CreateFileTestTwoProviders.filedataJSON" configurationId="JUnit" />
+    <history-entry file="CreateFileTestTwoProviders_createFileWithData - 2016.05.16 at 16h 49m 13s.xml">
+      <configuration name="CreateFileTestTwoProviders.createFileWithData" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CreateFileTestTwoProviders_createFileWithData - 2016.05.16 at 16h 59m 06s.xml">
+      <configuration name="CreateFileTestTwoProviders.createFileWithData" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -1075,7 +1062,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32850778" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32850778" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1261,28 +1248,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/learn/homeworks/homework_3_different_experiments/CreateFileTestTwoProviders.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="146" column="7" selection-start-line="146" selection-start-column="7" selection-end-line="146" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/learn/homeworks/homework_3_different_experiments/CreateFileTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="35" column="55" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/learn/homeworks/homework_10/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1307,33 +1276,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/learn/homeworks/homework_3_different_experiments/CreateFileTestTwoProviders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="160" column="124" selection-start-line="160" selection-start-column="92" selection-end-line="160" selection-end-column="124" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/learn/homeworks/homework_10/CreateFileTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
+        <state relative-caret-position="408">
           <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/learn/homeworks/homework_10/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/learn/homeworks/homework_10/AllDataProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="25" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+        <state relative-caret-position="476">
+          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
           <folding>
-            <marker date="1463404409788" expanded="false" signature="1447:1457" placeholder="&lt;~&gt;" />
-            <marker date="1463404409788" expanded="false" signature="1726:1737" placeholder=" { " />
-            <marker date="1463404409788" expanded="false" signature="1767:1773" placeholder=" }" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1996#2006#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/learn/homeworks/homework_10/CreateFileTestTwoProviders.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="150" column="0" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
-          <folding>
-            <element signature="e#1585#1595#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="340">
+          <caret line="61" column="42" selection-start-line="61" selection-start-column="42" selection-end-line="61" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>

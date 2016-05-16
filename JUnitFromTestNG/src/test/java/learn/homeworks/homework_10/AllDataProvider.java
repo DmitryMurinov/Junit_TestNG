@@ -1,10 +1,10 @@
-/*
 package learn.homeworks.homework_10;
 
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
+import java.util.stream.Collectors;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
@@ -33,18 +33,21 @@ public class AllDataProvider {
         }
     }
 
-    private static Object[][] loadDataFromResource(String value) throws IOException {
-        return loadDataFromInputStream(AllDataProvider.class.getResourceAsStream(value));
+    private static Object[][] GenerateData(String value) throws IOException {
+        return fileNames(value);
     }
 
-    private static Object[] loadDataFromFile(String value) throws IOException {
-        return filedataJSON("src/test/resources/filedata.json");
+    private static Object[] loadDataFromFile(String filePath) throws IOException {
+        return filedataJSON(filePath);
     }
 
-    @DataProvider
-    public static Object[][] fileNames() {
+    public static Object[][] fileNames(String count) {
+
         List<Object[]> fileName = new ArrayList<Object[]>();
-        for (int i = 0; i < 5; i++) {
+
+        int totalNames = Integer.valueOf(count);
+
+        for (int i = 0; i < totalNames; i++) {
             fileName.add(new Object[]{"/test_" + System.currentTimeMillis() + "_" + randomInt() + ".txt", ""});
         }
         return (Object[][]) fileName.toArray(new Object[][]{});
@@ -55,8 +58,6 @@ public class AllDataProvider {
     }
 
 
-*/
-/*
     private static Object[][] loadDataFromInputStream(InputStream input) throws IOException {
         BufferedReader in = new BufferedReader(new InputStreamReader(input));
 
@@ -70,11 +71,9 @@ public class AllDataProvider {
         in.close();
 
         return (Object[][]) userData.toArray(new Object[][]{});
-    }*//*
+    }
 
-
-
-    public static Object[] filedataJSON(String filePath) throws IOException {
+    public static Object[][] filedataJSON(String filePath) throws IOException {
 
         try
                 (
@@ -90,13 +89,15 @@ public class AllDataProvider {
 
             Gson gson = new Gson();
 
-            List<FileData> fileDatas = gson.fromJson(json, new TypeToken<List<FileData>>() {
+            List<Object> fileDatas = gson.fromJson(json, new TypeToken<List<FileData>>() {
             }.getType());
 
             System.out.println(fileDatas);
 
-            return (Object[]) fileDatas.toArray(new Object[]{});
+            List<Object[]> obj = fileDatas.stream().map(( o ) -> new Object[]{o}).collect(Collectors.toList());
+
+            return (Object[][]) obj.toArray(new Object[][]{});
         }
     }
 
-}*/
+}

@@ -8,12 +8,7 @@ public class RunSeveralTimesRule implements TestRule {
 
     int counter = 10;
 
-    public RunSeveralTimesRule(TestRule unstableRule) {
-//        counter = unstableRule.
-    }
-
-
-    public void setCounter(int counter) {
+    public RunSeveralTimesRule(int counter) {
         this.counter = counter;
     }
 

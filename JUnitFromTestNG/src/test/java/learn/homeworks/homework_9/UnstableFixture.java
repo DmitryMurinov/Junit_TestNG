@@ -10,20 +10,10 @@ import org.junit.rules.TestRule;
  */
 public class UnstableFixture {
 
-    private int counter = 1;
-
-    @ClassRule
-    public TestRule unstableRule = new UnstableRule();
+    @Rule
+    public UnstableRule unstableRule = new UnstableRule();
 
     @Rule
-    public TestRule runSeveralTimesRule = new RunSeveralTimesRule(unstableRule);
-
-    public int getCounter() {
-        return counter;
-    }
-
-    public void setCounter(int counter) {
-        this.counter = counter;
-    }
+    public TestRule runSeveralTimesRule = new RunSeveralTimesRule(unstableRule.getCounter());
 
 }
